@@ -2,10 +2,10 @@
 
 1. Project Setup: Create a React application and install necessary dependencies.
 
-Component Creation: Implement components
-
 2. Install Dependencies
 Install Axios for making API requests and Material-UI (MUI) for the component library.
+
+3. Component Creation: Implement components : components/ NavBar.jsx, HolidaySearch.jsx, HolidayList.jsx, HolidayDetails.jsx
 
 ## MVP User Stories
 - As a user, I want to view a list of upcoming holidays, so that I can plan my events accordingly.
