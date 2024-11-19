@@ -11,7 +11,9 @@ const HolidaySearch = ({ setHolidays }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
+      console.log(1)
       const response = await axios.get(`https://holidays.abstractapi.com/v1/?api_key=41962fd032244f399594ad2534fd2890&country=${country}&year=${year}&month=${month}&day=${day}`);
+      console.log(2, response.data)
       setHolidays(response.data);
     } catch (error) {
       console.error('Error fetching data', error);
