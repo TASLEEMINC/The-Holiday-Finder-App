@@ -6,7 +6,7 @@ const HolidayList = ({ holidays }) => {
   return (
     <List>
       {holidays.map((holiday, index) => (
-        <ListItem key={index} button component={Link} to={`/holidays/${holiday.name}`}>
+        <ListItem key={index} button="true" component={Link} to={`/holidays/${holiday.name}`}>
           <ListItemText primary={`${holiday.name} - ${holiday.date}`} />
         </ListItem>
       ))}

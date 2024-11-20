@@ -7,6 +7,8 @@ Install Axios for making API requests and Material-UI (MUI) for the component li
 
 3. Component Creation: Implement components : components/ NavBar.jsx, HolidaySearch.jsx, HolidayList.jsx, HolidayDetails.jsx
 
+4. Install react-router-dom for adding React Router
+
 ## MVP User Stories
 - As a user, I want to view a list of upcoming holidays, so that I can plan my events accordingly.
 - As a user, I want to search for holidays by date, so that I can find holidays on specific dates.

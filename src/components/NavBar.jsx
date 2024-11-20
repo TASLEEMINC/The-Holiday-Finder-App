@@ -7,10 +7,10 @@ const NavBar = () => {
     <AppBar position="static">
       <Toolbar>
         <Typography variant="h6" sx={{ flexGrow: 1 }}>
-          Holiday Finder
+          Welcome to Holiday Finder App
         </Typography>
         <Button color="inherit" component={Link} to="/">Home</Button>
-        <Button color="inherit" component={Link} to="/search">Search Holidays</Button>
+        <Button color="inherit" component={Link} to="/searchResults">Found-Holidays-List</Button>
       </Toolbar>
     </AppBar>
   );

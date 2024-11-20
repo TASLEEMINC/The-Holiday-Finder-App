@@ -27,7 +27,7 @@ const HolidaySearch = ({ setHolidays }) => {
         <TextField label="Year" type="number" value={year} onChange={(e) => setYear(e.target.value)} required />
         <TextField label="Month" type="number" value={month} onChange={(e) => setMonth(e.target.value)} required />
         <TextField label="Day" type="number" value={day} onChange={(e) => setDay(e.target.value)} required />
-        <Button type="submit" variant="contained" color="primary">Search</Button>
+        <Button type="submit" variant="contained" color="primary">Search Holiday</Button>
       </form>
     </Container>
   );
