@@ -1,5 +1,12 @@
 # Project Planning
 
+Project Idea : The Holiday Finder App
+Summary: The application provides a user-friendly interface where users can view detailed information about holidays on specific dates.
+Confirmation: Data is fetchable with no errors. Checked API URL(https://holidays.abstractapi.com/v1/?api_key=41962fd032244f399594ad2534fd2890&country=US&year=2020&month=12&day=25) through here : https://codepen.io/esin87/pen/zYzdxbW?editors=0011
+
+I will be working solo
+The link to planning : https://github.com/TASLEEMINC/The-Holiday-Finder-App/blob/main/PLANNING.md
+
 1. Project Setup: Create a React application and install necessary dependencies.
 
 2. Install Dependencies
